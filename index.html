@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Harshavardhini M, B.Tech Information Technology student.">
+<title>Harshavardhini M | Portfolio</title>
+<style>
+:root{--bg:#080b18;--panel:#11172b;--text:#f5f7ff;--muted:#b7bfd8;--purple:#a78bfa;--blue:#60a5fa;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 85% 0%,#252052 0,transparent 30%),radial-gradient(circle at 0% 35%,#102b4a 0,transparent 25%),var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}
+.container{width:min(1080px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(8,11,24,.88);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{display:flex;justify-content:space-between;align-items:center;gap:18px;padding:16px 0}
+.logo{font-weight:800;letter-spacing:.3px}.logo span{color:var(--purple)}
+.navlinks{display:flex;flex-wrap:wrap;gap:17px;font-size:.9rem;color:var(--muted)}
+.navlinks a:hover{color:white}
+.hero{min-height:76vh;display:grid;align-items:center;padding:75px 0 55px}
+.eyebrow{color:var(--blue);font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.5rem,7vw,5rem);line-height:1.05;margin:14px 0}
+h1 span{background:linear-gradient(90deg,var(--purple),var(--blue));background-clip:text;color:transparent}
+.lead{font-size:1.15rem;color:var(--muted);max-width:690px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}
+.btn{display:inline-block;padding:12px 19px;border-radius:12px;font-weight:700;border:1px solid var(--line);background:linear-gradient(110deg,#7254d9,#347ed7)}
+.btn.secondary{background:transparent}
+section{padding:55px 0;scroll-margin-top:75px}
+.section-title{font-size:2rem;margin:0 0 9px}
+.section-sub{color:var(--muted);margin:0 0 26px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:rgba(17,23,43,.85);border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:0 12px 30px rgba(0,0,0,.12)}
+.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:7px 0}
+.tags{display:flex;flex-wrap:wrap;gap:9px}
+.tag{font-size:.9rem;padding:7px 12px;border-radius:999px;background:rgba(167,139,250,.12);border:1px solid rgba(167,139,250,.28)}
+.project-img{width:100%;height:230px;object-fit:contain;background:#080b18;border-radius:12px;margin-bottom:14px}
+.small{font-size:.9rem;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);text-align:center}
+@media(max-width:700px){nav{align-items:flex-start;flex-direction:column}.navlinks{gap:12px}.grid{grid-template-columns:1fr}.hero{min-height:auto;padding:65px 0 35px}.project-img{height:190px}}
+</style>
+</head>
+<body>
+<header><nav class="container">
+  <a class="logo" href="#home">Harshavardhini<span>.</span></a>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#projects">Project</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+  </div>
+</nav></header>
+
+<main>
+<section class="hero container" id="home">
+  <div>
+    <div class="eyebrow">B.Tech Information Technology Student</div>
+    <h1>Hi, I'm <span>Harshavardhini M</span></h1>
+    <p class="lead">An enthusiastic IT student interested in programming, web development, problem-solving, and Artificial Intelligence. I enjoy learning new skills and applying them through practical work.</p>
+    <div class="buttons">
+      <a class="btn" href="#projects">Explore My Work</a>
+      <a class="btn secondary" href="assets/Harshavardhini_M_Resume.pdf" download>Download Resume ↓</a>
+    </div>
+  </div>
+</section>
+
+<section class="container" id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">A little about my learning journey</p>
+  <div class="card"><p>I'm a B.Tech Information Technology student at Dr. Mahalingam College of Engineering and Technology. My interests include Full Stack Development and Artificial Intelligence & Machine Learning. I'm building my foundation in programming and working to improve through practice and projects.</p></div>
+</section>
+
+<section class="container" id="education">
+  <h2 class="section-title">Education</h2><p class="section-sub">My academic background</p>
+  <div class="grid">
+    <div class="card"><h3>B.Tech — Information Technology</h3><p>Dr. Mahalingam College of Engineering and Technology</p><p class="small">Currently pursuing</p></div>
+    <div class="card"><h3>School Education</h3><p>Kandasamy Matriculation Higher Secondary School</p><p>Ganapathipalayam</p><p class="small">School dates and scores can be updated after verification.</p></div>
+  </div>
+</section>
+
+<section class="container" id="skills">
+  <h2 class="section-title">Technical Skills</h2><p class="section-sub">Skills I'm learning and practising</p>
+  <div class="card"><div class="tags"><span class="tag">C</span><span class="tag">Python</span><span class="tag">Java</span><span class="tag">HTML</span><span class="tag">CSS (Basic)</span><span class="tag">Data Structures & Algorithms (Basics)</span><span class="tag">Git & GitHub (Learning)</span></div></div>
+</section>
+
+<section class="container" id="projects">
+  <h2 class="section-title">Project</h2><p class="section-sub">A hardware project from my learning journey</p>
+  <div class="card">
+    <img class="project-img" src="assets/arduino-temperature-project.jpg" alt="Arduino UNO connected to a temperature sensor, LCD and fan">
+    <h3>Arduino-Based Temperature Monitoring System</h3>
+    <p>The setup includes an Arduino UNO, a temperature sensor, an LCD display and a cooling fan. The LCD displays the current temperature and a threshold value.</p>
+    <p><strong>Components:</strong> Arduino UNO, temperature sensor, LCD, cooling fan, breadboard and jumper wires.</p>
+    <p><strong>Focus:</strong> Temperature sensing, LCD interfacing and embedded systems.</p>
+    <p class="small">Fan automation details can be added after confirming how the circuit behaves.</p>
+  </div>
+  <div class="grid" style="margin-top:18px">
+    <div class="card"><h3>Simple HTML Webpage</h3><p>Practice work creating a basic webpage using HTML.</p></div>
+    <div class="card"><h3>Coding Practice</h3><p>Practising basic problems on LeetCode and HackerRank to improve problem-solving.</p></div>
+  </div>
+</section>
+
+<section class="container" id="certificates">
+  <h2 class="section-title">Certifications & Learning</h2><p class="section-sub">Courses, events and topics I'm exploring</p>
+  <div class="grid">
+    <div class="card"><h3>MATLAB Onramp</h3><p>Certificate of completion.</p></div>
+    <div class="card"><h3>NPTEL</h3><p>Business Fundamentals for Entrepreneurship.</p></div>
+    <div class="card"><h3>Shristy Technical Event</h3><p>PSG College of Technology — e-certificate.</p></div>
+    <div class="card"><h3>Currently Learning</h3><p>Full Stack Development, Data Structures and Algorithms, Git and GitHub.</p></div>
+  </div>
+</section>
+
+<section class="container" id="contact">
+  <h2 class="section-title">Contact</h2><p class="section-sub">Let's connect</p>
+  <div class="card">
+    <p><strong>Email:</strong> <a href="mailto:harshamohanraj25@gmail.com">harshamohanraj25@gmail.com</a></p>
+    <p class="small">Add your real LinkedIn and GitHub profile links here when ready.</p>
+  </div>
+</section>
+</main>
+<footer><div class="container">© <span id="year"></span> Harshavardhini M · Personal Portfolio</div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
